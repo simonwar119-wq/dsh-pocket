@@ -2,6 +2,8 @@
 
 ![DSH 随身](docs/banner.svg)
 
+[github.com/simonwar119-wq/dsh-pocket](https://github.com/simonwar119-wq/dsh-pocket)
+
 > **非官方实验项目。** 这个项目可以远程控制一台 Mac：截屏、鼠标、键盘、运行任务。请只在你自己拥有、且可信的设备和网络上使用。公开到公网前必须使用 HTTPS 和强配对，并阅读 [SECURITY.md](SECURITY.md)。
 
 把 **DeepSeek Harness** 装进口袋：手机与电脑同一个 Wi-Fi，配对后就能同步会话、发任务、看实时输出，并在手机上远程控制 Mac 桌面。

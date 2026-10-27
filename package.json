@@ -12,5 +12,9 @@
   "engines": {
     "node": ">=22"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonwar119-wq/dsh-pocket.git"
+  }
 }
