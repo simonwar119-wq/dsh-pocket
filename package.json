@@ -1,0 +1,16 @@
+{
+  "name": "dsh-pocket",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial local-first mobile control surface for DeepSeek Harness on macOS.",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "start:no-open": "node server/index.mjs --no-open",
+    "check": "node --check server/index.mjs && node --check server/dsh.mjs && node --check server/sessions.mjs && node --check server/proxy.mjs && node --check server/system.mjs && node --check web/app.js && node --check web/setup.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

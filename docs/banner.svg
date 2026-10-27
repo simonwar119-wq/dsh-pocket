@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset=".55" stop-color="#0e1b2c"/>
+      <stop offset="1" stop-color="#102a36"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".72" cy=".28" r=".6">
+      <stop offset="0" stop-color="#69e6ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#69e6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#g)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#glow)"/>
+  <g fill="none" stroke="#69e6ff" stroke-opacity=".18">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200"/>
+    <path d="M100 0v420M300 0v420M500 0v420M700 0v420M900 0v420M1100 0v420"/>
+  </g>
+  <rect x="62" y="58" width="86" height="86" rx="22" fill="#69e6ff"/>
+  <path d="M111 74l-22 38h18l-8 28 26-42h-18z" fill="#0b1220"/>
+  <text x="176" y="112" fill="#eefaff" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="48" font-weight="700">DSH 随身</text>
+  <text x="178" y="145" fill="#69e6ff" font-family="Menlo, monospace" font-size="17" letter-spacing="4">POCKET DSH</text>
+  <text x="62" y="238" fill="#dcefff" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28">A local-first mobile control surface for DeepSeek Harness.</text>
+  <text x="62" y="280" fill="#8fb6c8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18">Unofficial · macOS · PWA · LAN first · Pairing required</text>
+  <text x="62" y="362" fill="#5f8797" font-family="Menlo, monospace" font-size="14" letter-spacing="2">OPEN SOURCE / MIT</text>
+</svg>

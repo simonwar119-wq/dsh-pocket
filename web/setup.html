@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070b14">
+  <meta name="color-scheme" content="dark">
+  <title>DSH 随身 · 电脑配对</title>
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient-orb orb-a"></div>
+    <div class="ambient-orb orb-b"></div>
+    <div class="ambient-grid"></div>
+  </div>
+  <div class="setup-shell">
+    <header class="setup-head">
+      <div class="setup-brand">
+        <div class="brand-mark"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z"/></svg></div>
+        <div>
+          <div class="setup-title">DSH 随身</div>
+          <div class="setup-sub">让手机成为电脑上 DeepSeek Harness 的遥控器</div>
+        </div>
+      </div>
+      <span class="status-pill" id="setup-status"><span class="status-dot warn"></span>正在读取</span>
+    </header>
+    <div id="setup-content">
+      <div class="card setup-card" style="text-align:center"><div class="spinner" style="margin:0 auto"></div><p class="setup-note mt-12">正在准备配对信息…</p></div>
+    </div>
+    <footer class="setup-footer">
+      DSH 随身把手机和这台电脑通过局域网直连。配对令牌只保存在本机。<br>
+      DeepSeek Harness 是 DeepSeek 的产品；这是本地实验性客户端，不是官方发布。
+    </footer>
+  </div>
+  <div id="toast-root" class="toast-root"></div>
+  <script src="qrcode.js"></script>
+  <script src="setup.js"></script>
+</body>
+</html>
