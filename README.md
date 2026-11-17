@@ -256,6 +256,18 @@ curl http://127.0.0.1:8797/health
 - 确认 DeepSeek Harness 桌面版正在运行，访问 <http://127.0.0.1:8797/health> 查看 DSH 状态。
 - 在“我的”页查看 DSH 在线状态与端口。
 
+## 法律、支持与 Mac 下载
+
+iOS App「DSH 随身」1.1 可以免费下载，免费时保存一台 Mac。另有一次性非消耗型项目 `com.sear.agentdesk.pocket.lifetime`（不是订阅，不会自动续费）。截至 2026-11-17，美国店价格为 1.99 美元，中国店价格为 9.90 元人民币，实际扣款以 App Store 显示价格为准。
+
+- 隐私政策（简体中文 / English）：[PRIVACY.md](PRIVACY.md)
+- 支持（简体中文 / English）：[SUPPORT.md](SUPPORT.md)
+- 使用条款（简体中文 / English）：[TERMS.md](TERMS.md)
+- Apple 标准 EULA：<https://www.apple.com/legal/internet-services/itunes/dev/stdeula/>
+- Mac 获取说明：[docs/DOWNLOAD.md](docs/DOWNLOAD.md)
+
+这些页面合并到 `main` 之后，就是 App 和 App Store 应使用的公开地址。不要使用 `searwith.me`。本仓库目前没有已签名、已公证的 Mac 安装包。
+
 ## 说明
 
 本项目通过本地接口与 DeepSeek Harness 通信。DSH 仍在快速迭代，接口可能变化；如升级 DSH 后出现兼容问题，请优先查看 `server/dsh.mjs` 与 `server/sessions.mjs`。DeepSeek Harness 是 DeepSeek 的产品，本项目与 DeepSeek 官方无关。
@@ -272,3 +284,5 @@ curl http://127.0.0.1:8797/health
 ## English
 
 An unofficial, local-first mobile companion for DeepSeek Harness on macOS. Pair a phone over LAN or a private HTTPS tunnel, then read sessions, send tasks, watch live output, and optionally control the Mac desktop. MIT licensed. Use at your own risk.
+
+The separate iOS app is free and can save one Mac. DSH Pocket Pro is the non-consumable `com.sear.agentdesk.pocket.lifetime` (US $1.99 / CNY 9.90 as of 2026-11-17; the App Store price is what is charged). It is not a subscription. Privacy, support, terms, and Mac download status: [PRIVACY.md](PRIVACY.md), [SUPPORT.md](SUPPORT.md), [TERMS.md](TERMS.md), [docs/DOWNLOAD.md](docs/DOWNLOAD.md). No signed Mac installer is published in this repository.
