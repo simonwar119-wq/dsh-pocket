@@ -266,7 +266,7 @@ iOS App「DSH 随身」1.1 可以免费下载，免费时保存一台 Mac。另�
 - Apple 标准 EULA：<https://www.apple.com/legal/internet-services/itunes/dev/stdeula/>
 - Mac 获取说明：[docs/DOWNLOAD.md](docs/DOWNLOAD.md)
 
-这些页面合并到 `main` 之后，就是 App 和 App Store 应使用的公开地址。不要使用 `searwith.me`。本仓库目前没有已签名、已公证的 Mac 安装包。
+这些页面合并到 `main` 之后，就是 App 和 App Store 应使用的公开地址。不要使用 `searwith.me`。Mac 版是菜单栏配套 App。公开安装包只以 [docs/DOWNLOAD.md](docs/DOWNLOAD.md) 链接到的、已经发布的 GitHub Release 为准。
 
 ## 说明
 
@@ -285,4 +285,4 @@ iOS App「DSH 随身」1.1 可以免费下载，免费时保存一台 Mac。另�
 
 An unofficial, local-first mobile companion for DeepSeek Harness on macOS. Pair a phone over LAN or a private HTTPS tunnel, then read sessions, send tasks, watch live output, and optionally control the Mac desktop. MIT licensed. Use at your own risk.
 
-The separate iOS app is free and can save one Mac. DSH Pocket Pro is the non-consumable `com.sear.agentdesk.pocket.lifetime` (US $1.99 / CNY 9.90 as of 2026-11-17; the App Store price is what is charged). It is not a subscription. Privacy, support, terms, and Mac download status: [PRIVACY.md](PRIVACY.md), [SUPPORT.md](SUPPORT.md), [TERMS.md](TERMS.md), [docs/DOWNLOAD.md](docs/DOWNLOAD.md). No signed Mac installer is published in this repository.
+The separate iOS app is free and can save one Mac. DSH Pocket Pro is the non-consumable `com.sear.agentdesk.pocket.lifetime` (US $1.99 / CNY 9.90 as of 2026-11-17; the App Store price is what is charged). It is not a subscription. Restore Purchases is for iPhone and iPad; there is no Mac App Store version. Privacy, support, terms, and the Mac companion page: [PRIVACY.md](PRIVACY.md), [SUPPORT.md](SUPPORT.md), [TERMS.md](TERMS.md), [docs/DOWNLOAD.md](docs/DOWNLOAD.md). A public installer is linked only when a GitHub Release actually has one.

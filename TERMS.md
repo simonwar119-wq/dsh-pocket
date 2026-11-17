@@ -30,15 +30,15 @@ App 可以免费下载，免费时可以保存一台 Mac。
 
 截至 2026-11-17，该商品在美国店的价格为 1.99 美元，在中国店的价格为 9.90 元人民币。实际扣款以你购买时 App Store 显示的价格为准。本条款不另外定价，也不改这个一次性购买的性质。
 
-同一 Apple 账户下，可以在已安装本 App 的设备上使用「恢复购买」。退款按 Apple 的退款政策处理。本条款不另设退款窗口。
+恢复购买适用于登录同一 Apple 账户的 iPhone 和 iPad。本 iOS App 的目标设备是 iPhone 和 iPad，没有 Mac App Store 版本，不能在 Mac App Store 里恢复这笔购买。退款按 Apple 的退款政策处理。本条款不另设退款窗口。
 
 这个版本不销售订阅。App 里没有「管理订阅」或自动续费。
 
-### 3. Mac 版获取说明不是一张已经可下载的安装盘
+### 3. Mac 版说明页
 
-App 内的「下载 Mac 版」打开 [docs/DOWNLOAD.md](docs/DOWNLOAD.md)。截至 2026-11-17，本仓库没有已签名、已公证的 Mac 安装包，GitHub Releases 也是空的。该页会说明当前真正能用的途径，并且不会分发未签名的安装文件。
+App 内的 Mac 版入口打开 [docs/DOWNLOAD.md](docs/DOWNLOAD.md)。Mac 版是菜单栏配套 App。该页只链接已经附在本仓库 GitHub Releases 上的安装包，不在本页里写死某一天有没有文件，也不提供未签名的磁盘映像。
 
-购买 Pro 会解锁 App 里的这个入口。它不会在安装包尚未发布时，变成一次对安装包的交付。
+购买 Pro 解锁的是保存多于一台 Mac，以及这个说明入口。安装包是否能下载，以该页当时列出的 Release 为准。
 
 ### 4. 使用边界
 
@@ -46,7 +46,7 @@ App 内的「下载 Mac 版」打开 [docs/DOWNLOAD.md](docs/DOWNLOAD.md)。截�
 
 ### 5. 不提供保证
 
-软件按「现状」提供。本仓库会尽量兼容常见网络和当前已检查的系统版本，但不保证在每一类网络、每一个 DeepSeek Harness 版本或每一个 macOS 版本上都能连接。本条款不承诺尚未发布的签名 Mac 安装包已经可以下载。
+软件按「现状」提供。本仓库会尽量兼容常见网络和当前已检查的系统版本，但不保证在每一类网络、每一个 DeepSeek Harness 版本或每一个 macOS 版本上都能连接。
 
 ### 6. 责任限制
 
@@ -78,15 +78,15 @@ DSH Pocket Pro is a one-time non-consumable, product ID `com.sear.agentdesk.pock
 
 As of 2026-11-17, the price is US $1.99 on the United States storefront and CNY 9.90 on the China storefront. The amount charged is the price the App Store displays when you buy. These terms do not set a different price and do not change the one-time purchase.
 
-On devices that have the app installed, the same Apple Account can use Restore Purchases. Refunds follow Apple’s refund policy. These terms do not add a separate refund window.
+Restore Purchases applies to iPhone and iPad signed in to the same Apple Account. This iOS app targets iPhone and iPad. It has no Mac App Store version, so this purchase is not restored from the Mac App Store. Refunds follow Apple’s refund policy. These terms do not add a separate refund window.
 
 This version does not sell a subscription. The app has no “manage subscription” control and no auto-renewal.
 
-### 3. Mac download guidance is not a disk image that is ready today
+### 3. Mac companion page
 
-“Download the Mac app” in the app opens [docs/DOWNLOAD.md](docs/DOWNLOAD.md). As of 2026-11-17 this repository has no signed, notarized Mac installer, and GitHub Releases is empty. That page describes the path that actually exists and does not distribute an unsigned installer.
+The Mac entry in the app opens [docs/DOWNLOAD.md](docs/DOWNLOAD.md). The Mac companion is a menu-bar app. That page links an installer only when the file is attached to a GitHub Release of this repository. It does not freeze a particular day’s release list into these terms, and it does not offer an unsigned disk image.
 
-Buying Pro unlocks that entry inside the app. It does not deliver an installer that has not been published.
+Buying Pro unlocks saving more than one Mac and that page entry. Whether an installer can be downloaded depends on the Release listed on the page at the time.
 
 ### 4. Acceptable use
 
@@ -94,7 +94,7 @@ This is a remote-control tool. After pairing, actions on the phone can be equiva
 
 ### 5. No warranty
 
-The software is provided “as is”. This repository aims to work on common networks and on the system versions that were inspected, but it does not guarantee a connection on every network, every DeepSeek Harness version, or every macOS version. These terms do not claim that an unpublished signed Mac installer is already available.
+The software is provided “as is”. This repository aims to work on common networks and on the system versions that were inspected, but it does not guarantee a connection on every network, every DeepSeek Harness version, or every macOS version.
 
 ### 6. Limitation of liability
 

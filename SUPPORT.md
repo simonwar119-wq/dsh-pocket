@@ -28,7 +28,7 @@
 
 截至 2026-11-17，美国店价格为 1.99 美元，中国店价格为 9.90 元人民币。其他店面以 App Store 显示的价格为准。
 
-恢复购买：打开 App → 设置 → 恢复购买。需要使用购买时的同一个 Apple 账户。
+恢复购买：打开 App → 设置 → 恢复购买。用于本 App 的 iPhone 和 iPad，并且要使用购买时的同一个 Apple 账户。本 App 没有 Mac App Store 版本。
 
 这个版本没有可以在 App 内取消的订阅。如果 Apple 账户页面里仍显示一份旧订阅，那是 Apple 账户里的记录，不是本版本正在销售的商品；请以 Apple 显示的内容为准：<https://apps.apple.com/account/subscriptions>。退款按 Apple 的退款政策处理。
 
@@ -44,7 +44,7 @@
 
 ### Mac 版
 
-App 里的「下载 Mac 版」打开 [docs/DOWNLOAD.md](docs/DOWNLOAD.md)。截至 2026-11-17，没有已签名、已公证的安装包可以下载。可以从本仓库源码在你自己的 Mac 上运行桥接服务。那不是已公证的菜单栏安装包。
+App 里的 Mac 版入口打开 [docs/DOWNLOAD.md](docs/DOWNLOAD.md)。Mac 版是菜单栏配套 App。该页只链接本仓库 GitHub Releases 上已经发布的安装包。本仓库里的桥接源码是另一条从源码运行服务的途径，不是菜单栏 App 不存在的证明，也不是未签名安装包。
 
 ### 相关页面
 
@@ -71,7 +71,7 @@ DSH Pocket Pro is the non-consumable `com.sear.agentdesk.pocket.lifetime`. It is
 
 As of 2026-11-17, the price is US $1.99 on the United States storefront and CNY 9.90 on the China storefront. Other storefronts use the price the App Store displays.
 
-Restore Purchases: open the app → Settings → Restore Purchases. Use the same Apple Account that bought it.
+Restore Purchases: open the app → Settings → Restore Purchases. This is for iPhone and iPad, using the same Apple Account that bought it. This app has no Mac App Store version.
 
 This version has no subscription to cancel inside the app. If Apple still shows an older subscription on the account, that is a record in the Apple Account, not the product this version sells. Use what Apple displays: <https://apps.apple.com/account/subscriptions>. Refunds follow Apple’s refund policy.
 
@@ -87,7 +87,7 @@ More checks are in the troubleshooting section of [README.md](README.md).
 
 ### Mac app
 
-“Download the Mac app” in the iOS app opens [docs/DOWNLOAD.md](docs/DOWNLOAD.md). As of 2026-11-17 there is no signed, notarized installer to download. You can run the bridge from this repository’s source on your own Mac. That is not a notarized menu-bar installer.
+The Mac entry in the iOS app opens [docs/DOWNLOAD.md](docs/DOWNLOAD.md). The Mac companion is a menu-bar app. That page links an installer only when it is attached to a GitHub Release of this repository. The bridge source in this repository is a separate way to run the service from source. It is not evidence that the menu-bar app does not exist, and it is not an unsigned installer.
 
 ### Related pages
 
