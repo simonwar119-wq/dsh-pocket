@@ -20,7 +20,10 @@ Mac 版是菜单栏配套 App：菜单栏常驻，可以打开设置页，也可
 
 ### 已发布的安装包
 
-下面只放已经附在 GitHub Release 上的文件。没有链接，就表示还没有把安装包加到本页。
+- 安装包：[DSH-Pocket-1.1-macOS-AppleSilicon.dmg](https://github.com/simonwar119-wq/dsh-pocket/releases/download/v1.1/DSH-Pocket-1.1-macOS-AppleSilicon.dmg)（GitHub Release [v1.1](https://github.com/simonwar119-wq/dsh-pocket/releases/tag/v1.1)，已用 Developer ID 签名并经 Apple 公证）
+- 系统要求：Apple 芯片（M 系列）Mac，macOS 13 或更高版本。此安装包不支持 Intel Mac。
+- SHA-256：`8aab0e4e30fd50da675d6b06766675805cd492a55c2ee1e43c7dd7415c2a9f1a`
+- 校验和文件：[SHA256SUMS-1.1-notarized.txt](https://github.com/simonwar119-wq/dsh-pocket/releases/download/v1.1/SHA256SUMS-1.1-notarized.txt)
 
 ### 本仓库里的桥接源码
 
@@ -40,7 +43,10 @@ Published assets are listed at <https://github.com/simonwar119-wq/dsh-pocket/rel
 
 ### Published installers
 
-Only files already attached to a GitHub Release are listed below. No link means no installer has been added to this page.
+- Installer: [DSH-Pocket-1.1-macOS-AppleSilicon.dmg](https://github.com/simonwar119-wq/dsh-pocket/releases/download/v1.1/DSH-Pocket-1.1-macOS-AppleSilicon.dmg) (GitHub Release [v1.1](https://github.com/simonwar119-wq/dsh-pocket/releases/tag/v1.1); Developer ID signed and Apple notarized)
+- Requirements: Apple silicon (M-series) Mac, macOS 13 or later. This build does not support Intel Macs.
+- SHA-256: `8aab0e4e30fd50da675d6b06766675805cd492a55c2ee1e43c7dd7415c2a9f1a`
+- Checksums: [SHA256SUMS-1.1-notarized.txt](https://github.com/simonwar119-wq/dsh-pocket/releases/download/v1.1/SHA256SUMS-1.1-notarized.txt)
 
 ### Bridge source in this repository
 
